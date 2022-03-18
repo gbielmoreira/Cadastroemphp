@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/app.webp" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Formulário</title>
-</head>
-<body>
-    <div id="form">
-        <form method="POST" action="crud.php">
-                
-            <h1>Formulário aplicativo</h1>
-
-            <div>
-                <label for="">Nome do aplicativo:</label>
-                <input type="text" name="nome_aplicativo" placeholder="Nome do Aplicativo" required ><br>
-            </div>
-
-            <div>
-                <label for="">Tamanho (Mb):</label>
-                <input type="number" name="tamanho" placeholder="Tamanho" required><br>
-            </div>
-
-            <div>
-                <label for="">Data da instalação:</label>
-                <input type="date" name="data_instalacao" required><br>
-            </div>
-
-            <div>
-                <label for="">Versão:</label>
-                <input type="text" name="versao" placeholder="Versão" required><br><br>
-            </div>
-                
-            <input type="submit" value="Enviar">
-
-        </form>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/app.webp" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div id="form">
+            <form method="POST" action="crud.php">
+                <h1>Formulário aplicativo</h1>
+                <div>
+                    <label for="">Nome do aplicativo:</label>
+                    <input type="text" name="nome_aplicativo" placeholder="Nome do Aplicativo" required ><br>
+                </div>
+                <div>
+                    <label for="">Tamanho (Mb):</label>
+                    <input type="number" name="tamanho" placeholder="Tamanho" required><br>
+                </div>
+                <div>
+                    <label for="">Data da instalação:</label>
+                    <input type="date" name="data_instalacao" required><br>
+                </div>
+                <div>
+                    <label for="">Versão:</label>
+                    <input type="text" name="versao" placeholder="Versão" required><br><br>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
 </html>
